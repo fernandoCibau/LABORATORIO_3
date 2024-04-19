@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="https://diferenciasentre.org/fundamentos-del-protocolo-http-lo-esencial-que-debes-saber/" target="_blank">Fundamentos del protocolo HTTP</a></li>
                 <li><a href="https://www.ionos.es/digitalguide/servidores/know-how/que-es-tcp-transport-control-protocol/" target="_blank">TCP (Protocolo de Control de Transmisión)</a></li>
-                <li><a href="https://www.guru99.com/es/tcp-3-way-handshake.html">.....................</a></li>
+                <li><a href="https://www.guru99.com/es/tcp-3-way-handshake.html" target="_blank">Tipos de mensajes TCP( SYN, SYN-ACK, ACK )</a></li>
             </ul>
         </nav>
     </header>
@@ -33,60 +33,181 @@
                 <li>
                         <h3>¿Que protocolo binario está montado el protocolo HTTP?</h3>
                         <p>
-                            <strong>Respuesta:</strong> Sobre que protocolo binario está montado el protocolo HTTP?
-    
+                            <strong>Respuesta :</strong>El protocolo HTTP esta montado sobre el protocolo tcp/ip( Protocolo de Control de Transmision ) este es el encargado de espabrecer  la conexiones "Cliente / Servidor", La misma se establece por un enlace de tres vias  Handshaking () 
+                            <br><br>
+                            1 - EL Host/Cliente inicia la conversacion solicitando una comunicacion al servidor Enviando un segmento SYN.
+                            <br><br>
+                            2 - El Servidor responde a la solicitd cin otra señal (SYN-ACK)., "El ACK confirma que el servidor ha recibido el SYN"
+                            <br><br>
+                            3 - En este ultimo paso, el cliente reconoce la respuesta del servidor, y ambos crean una conexion estable para comenzar el proceso real de transferencia de datos
                         </p>
-                </li><br>
+                </li>
+                <br>
                 <li>
                     <h3>¿Cuáles son los clientes http  y los servidores http mas utilizados?<br></h3>
-                    <p></p>
+                    <p>
+                        <strong>Respuesta : </strong>Aquí te presento algunos de los servidores web más utilizados: 
+                        <br><br>
+                        1 - <strong>Nginx :</strong> Nginx es un servidor  web de código abierto y alto rendimiento. Es ampliamente utilizado para gestionar sitios web de alto tráfico. Su éxito radica en su capacidad para manejar grandes cantidades de conexiones simultáneas. Grandes plataformas como Netflix y Pinterest confían en Nginx. 
+                        <br><br>
+                        2 - <strong>Apache HTTP Server :</strong> Apache, también conocido como Apache HTTP Server, es uno de los servidores web más populares del mundo. Es gratuito, de código abierto y ha sido fundamental en el desarrollo web durante décadas. 
+                        <br><br>
+                        3 - <strong>LiteSpeed : </strong>LiteSpeed es otro servidor web que se destaca por su rendimiento y eficiencia. Aunque no es tan ampliamente utilizado como Nginx o Apache, es una opción sólida para sitios web de alto rendimiento.
+                        <br><br>
+                        4 - <strong>Microsoft-IIS :</strong> El Servidor de Información de Internet (IIS) de Microsoft es comúnmente utilizado en entornos Windows. Aunque su cuota de mercado es menor, sigue siendo relevante en el ámbito empresarial.
+                        <br><br>
+                        5 - <strong>OpenResty :</strong> OpenResty es una plataforma basada en Nginx que permite la ejecución de código Lua en el servidor web. Es especialmente popular para aplicaciones web dinámicas y APIs.
+                        <br><br>
+                        * <strong>En cuanto a los clientes HTTP :</strong> Los navegadores web son los más comunes. Algunos de los navegadores más utilizados incluyen Google Chrome, Mozilla Firefox, Microsoft Edge y Safari. Estos clientes envían solicitudes HTTP a los servidores web para obtener páginas web y recursos
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <h3>¿Que verbos admite un comando en el requerimiento HTTP?</h3>
+                    <p>
+                        <strong>Respuesta : </strong>Los métodos de petición HTTP (también conocidos como verbos HTTP) indican la acción que se desea realizar sobre un recurso específico. A continuación, te presento los métodos más comunes:
+                        <br><br>
+                        1 - <strong>GET : </strong>Solicita una representación de un recurso específico. Las peticiones con el método GET solo recuperan datos.
+                        <br><br>
+                        2 - <strong>POST : </strong>Envía una entidad a un recurso específico, causando cambios en el estado o efectos secundarios en el servidor.
+                        <br><br>
+                        3 -	<strong>PUT : </strong>Reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+                        <br><br>
+                        4 - <strong>DELETE : </strong>Borra un recurso específico.
+                        <br><br>
+
+                        5 - <strong>HEAD : </strong> Similar a GET, pero sin el cuerpo de la respuesta. Se utiliza para obtener metadatos de la cabecera.
+                        <br><br>
+                        6 - <strong>CONNECT : </strong> Establece un túnel hacia el servidor identificado por el recurso.
+                        <br><br>
+                        7 - <strong>OPTIONS : </strong> Describe las opciones de comunicación disponibles para el recurso de destino.
+                        <br><br>
+                        8 - <strong>TRACE: </strong> Realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+                        <br><br>
+                        9 - <strong>PATCH : </strong>Aplica modificaciones parciales a un recurso.
+                        <br><br>
+                        *   Estos métodos son fundamentales para la comunicación efectiva entre clientes y servidores en el protocolo HTTP.
+
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <h3>¿Que contenido lleva el body de un requerimiento HTTP?</h3>
+                    <p>
+                        <strong>Respuesta : </strong>El cuerpo de una solicitud HTTP contiene datos específicos que se envían al servidor. La estructura y el contenido del cuerpo varían según el tipo de solicitud y el formato de datos utilizado
+                        <br><br>
+                        <strong>Ejemplos : </strong>
+                        <br><br>
+                        <strong>Las solicitudes GET : </strong>Generalmente no incluyen un cuerpo en la petición. Los datos se transmiten a través de los parámetros de la URL (por ejemplo, https://mi-sitio.com/recurso?parametro1=valor1&parametro2=valor2).
+                        En resumen, el cuerpo de una solicitud GET suele estar vacío.
+                        <br><br>
+                        <strong>Las solicitudes POST : </strong>envían datos al servidor en el cuerpo de la solicitud. Estos datos pueden ser formularios HTML, JSON, XML o cualquier otro formato.
+                        <br>
+                        Por ejemplo, al enviar un formulario de inicio de sesión, los campos como el nombre de usuario y la contraseña se incluirían en el cuerpo de la solicitud POST.
+                        <br><br>
+                        <strong>Solicitudes PUT y PATCH : </strong>Estas solicitudes también incluyen datos en el cuerpo.
+                        <strong>En una solicitud PUT</strong>, el cuerpo contiene la representación completa del recurso que se va a actualizar.
+                        <strong>En una solicitud PATCH</strong>, el cuerpo contiene solo las modificaciones específicas que se deben aplicar al recurso existente.
+                        <br><br>
+                        <strong>Solicitudes DELETE : </strong>Aunque las solicitudes DELETE no requieren un cuerpo, algunos servidores pueden aceptar un cuerpo opcional para proporcionar información adicional sobre la eliminación.
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <h3>¿Que diferencia existe entre un URL y un URI?</h3>
+                    <p>
+                        <strong>Respuesta : </strong>
+                        <br>
+                        *   <strong>URI</strong> (Identificador Uniforme de Recursos) Es una cadena que identifica un recurso web. Puede ser un nombre o una ubicación., mientras que una <strong>URL </strong>(Localizador Uniforme de Recursos) : Es un tipo específico de URI que solo proporciona la ubicación de un recurso en Internet .
+                        <br><br>
+                        <strong>Ejemplo : </strong><br><br>
+                        <strong>URL</strong> ==>    http://miempresa.midominio/ <br>
+                        <strong>URI</strong>  ==>    mirecurso.html
+
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <h3>¿Como se almacena información relacionada con las respuestas http?</h3>
+                    <p>
+                        <strong>Respuesta : </strong>La caché del navegador almacena temporalmente archivos de contenido de una página web en tu dispositivo local (como imágenes, CSS, JavaScript, etc.).  Su objetivo principal es mejorar la velocidad de carga de las páginas web., Cuando visitas un sitio web, el navegador guarda estos recursos en la caché local, La próxima vez que vuelvas a esa página, el navegador utilizará los recursos almacenados en lugar de descargarlos nuevamente desde Internet.
+                        <br>
+                        <strong>Ejemplos : </strong>
+                        <br>
+                        *	La cache guarda en una variable de protocolo(headers) con la fecha de la última vas que fue modificado el recurso del lado del servidor. Si la pagina vuelva a cargar el navegador solicita al servidor mediante esa fecha que está en el header, y el navegador controla si ese recurso fue modificado (si tiene otra fecha). Si es que no se modificó devuelve una variable MODIFIED = NOR MODIFIED,  en esa caso el navegador usa el mismo recurso, caso contrario se vuelve a descargar.
+                        <br>
+                        *	La cache también almacena mediante mediate Etag’s y Hash’s, la diferencia es que usa un código. Eso resuelve fallas de fallas de actualizaciones por fechas.
+                        <br>
+                        <strong>En resumen : </strong>La caché del navegador ayuda a que las páginas se carguen más rápido.          
+                    </p>
                 </li><br>
                 <li>
-                    ¿Que verbos admite un comando en el requerimiento HTTP?
-                    <p></p>
-                </li><br>
+                    <h3>¿Que significa Virtual hosting?</h3> 
+                    <p>
+                        <strong>Respuesta : </strong>El Virtual Hosting (o anfitrión virtual) es una técnica que permite a un servidor web alojar múltiples sitios web en la misma máquina física. Esto se logra mediante la asignación de nombres de dominio o direcciones IP específicas a cada sitio web, lo que permite al servidor identificar y enrutar las solicitudes de manera adecuada.
+                        <br>
+                            En resumen, el virtual hosting permite que varios sitios web compartan un mismo servidor físico, pero se comporten como si estuvieran en servidores separados. Cada sitio web tiene su propio espacio aislado y se puede acceder a través de su propio dominio o dirección IP.
+                        <br>
+                        <strong>Por ejemplo : </strong>Si tienes varios sitios web (como “sitio1.com”, “sitio2.com” y “sitio3.com”), puedes alojarlos en el mismo servidor utilizando el virtual hosting. Cada sitio tendrá su propio espacio de almacenamiento, configuración y recursos, pero todos compartirán el mismo servidor físico.
+                    </p>
+                </li>
+                <br>
                 <li>
-                    ¿Que verbos admite un comando en el requerimiento HTTP?
-                    <p></p>
-                </li><br>
-                <li>
-                    ¿Que verbos admite un comando en el requerimiento HTTP?
-                    <p></p>
-                </li><br>
-                <li>
-                    ¿Como se almacena información relacionada con las respuestas http?
-                    <p></p>
-                </li><br>
-                <li>
-                    ¿Que significa Virtual hosting? 
-                    <p></p>
-                </li><br>
-                <li>
-                    ¿Porque el HTTP se considera STATE LESS?
-                    <p></p>
-                </li><br>
+                    <h3>¿Porque el HTTP se considera STATE LESS?</h3>
+                    <p>
+                        <strong>Respuesta : </strong>HTTP se considera un protocolo sin estado o stateless porque no mantiene información de las transacciones anteriores. En el contexto de HTTP, el servidor trata cada solicitud como si fuera la primera vez que recibe una solicitud de ese cliente. No guarda ningún estado entre las transacciones durante una sesión. Esto significa que, si un cliente realiza dos solicitudes al servidor, este último no retiene ninguna información de la primera solicitud cuando procesa la segunda.
+                        <br>
+                        Esta característica permite que los servidores HTTP sean más simples y rápidos, ya que no necesitan gestionar el estado de las interacciones con los clientes. Sin embargo, también significa que cualquier información adicional necesaria para manejar las solicitudes debe ser reenviada con cada solicitud. Por ejemplo, en una aplicación web que requiere inicio de sesión, el usuario debe enviar su información de autenticación con cada solicitud, o el sistema debe utilizar mecanismos como las <strong>cookies o tokens</strong> para mantener el estado a través de las solicitudes.                        
+                    </p>
+                </li>
+                <br>
                 <li>
                     <h3>¿Como va a mejorar la velocidad de la WEB en poco tiempo?</h3>
                     <p>
-                        <strong>Respuesta : </strong>HTTP/2 apareció en 2015 para reemplazar al protocolo HTTP/1.1 e introducir numerosas mejoras. Esta versión del protocolo incorporó grandes cambios y mejoró significativamente la transferencia de datos, lo que también impulsó la aceleración de la velocidad de carga de las páginas web. <br><br>
-                        A continuación, te presento algunas de las mejoras clave de HTTP/2 con respecto a HTTP/1.1: <br><br>
+                        <strong>Respuesta : </strong>HTTP/2 apareció en 2015 para reemplazar al protocolo HTTP/1.1 e introducir numerosas mejoras. Esta versión del protocolo incorporó grandes cambios y mejoró significativamente la transferencia de datos, lo que también impulsó la aceleración de la velocidad de carga de las páginas web. 
+                        <br>
+                        <br>
+                        A continuación, te presento algunas de las mejoras clave de HTTP/2 con respecto a HTTP/1.1: 
+                        <br>
+                        <br>
                         1.  <strong>Eliminación de la información redundante :</strong><br>
                         *	HTTP/2 reduce la latencia y el consumo de recursos al eliminar información redundante en las solicitudes y respuestas.<br>
-                        *   Esto permite una comunicación más eficiente entre el cliente y el servidor.<br><br>
+                        *   Esto permite una comunicación más eficiente entre el cliente y el servidor.
+                        <br>
+                        <br>
                         2.	<strong>Multiplexación :</strong><br>
                         *	HTTP/2 resuelve el problema conocido como “Head-of-line blocking” de HTTP/1.1.<br>
                         *	En HTTP/1.1, solo se podía usar una única solicitud por conexión TCP, lo que generaba congestión.<br>
-                        *	Con HTTP/2, se pueden resolver varias peticiones a la vez, evitando la congestión y mejorando la eficiencia.<br><br>
+                        *	Con HTTP/2, se pueden resolver varias peticiones a la vez, evitando la congestión y mejorando la eficiencia.
+                        <br>
+                        <br>
                         3.	<strong>Compresión de encabezados :</strong><br>
                         *	HTTP/2 utiliza una técnica de compresión de encabezados para reducir el tamaño de las cabeceras.<br>
-                        *	Esto disminuye la sobrecarga de datos y mejora la velocidad de transferencia.<br><br>
+                        *	Esto disminuye la sobrecarga de datos y mejora la velocidad de transferencia.
+                        <br>
+                        <br>
                         4.	<strong>Formato binario:</strong><br>
                         *	HTTP/2 utiliza un formato binario en lugar del formato de texto legible de HTTP/1.1.<br>
                         *	El formato binario es más eficiente en términos de procesamiento y transmisión.
                     </p>
-                </li><br>
+                </li>
+                <br>
                 <li>
-                    <h3>¿Como va a mejorar el comportamiento de una aplicación WEB enambientes ruidosos o de débil conexión?</h3>
+                    <h3>¿Como va a mejorar el comportamiento de una aplicación WEB en ambientes ruidosos o de débil conexión?</h3>
+
+                    <strong>Respuesta : </strong>HTTP/3 es la nueva versión del protocolo de transferencia de hipertexto (HTTP) y está basado en el protocolo UDP. puede mejorar el comportamiento de una aplicación web en ambientes ruidosos o con conexiones débiles.
+                    <br><br>
+
+                    <strong>Es compuesto por : </strong>
+                    <br><br>
+                    <strong>Protocolo UDP : </strong>HTTP/3 utiliza QUIC (Quick UDP Internet Connections) como su capa de transporte en lugar de TCP (Transmission Control Protocol). A diferencia de TCP, que es orientado a la conexión y espera confirmaciones de paquetes, UDP es un protocolo sin conexión. Esto significa que no hay esperas para confirmaciones, lo que reduce la latencia y mejora la velocidad de transferencia.
+                    <br><br>
+                    <strong>Multiplexación nativa : </strong>QUIC permite la multiplexación de forma nativa. En HTTP/2, aunque se introdujo la multiplexación para transmitir múltiples recursos en una sola conexión TCP, aún estaba limitada por TCP. Si un paquete se perdía, toda la conexión se paralizaba. En HTTP/3, los paquetes perdidos solo afectan a las transmisiones específicas en las que se perdieron datos. Esto evita bloqueos y mejora la eficiencia.
+                    <br><br>
+                    <strong>Menos sobrecarga : </strong> HTTP/3 elimina la sobrecarga de TCP. Al no depender de confirmaciones de paquetes, no hay necesidad de retransmitir paquetes perdidos en toda la conexión. Esto reduce la latencia y mejora la velocidad de carga.
+                    <br><br>
+                    <strong>Mayor fiabilidad : </strong>Aunque UDP no incluye algunas características de TCP, QUIC compensa esto proporcionando retransmisión de paquetes y otros mecanismos de confiabilidad. Así, HTTP/3 ofrece una mayor fiabilidad que simplemente usar UDP.
+                    <br>
                 </li>
             </ol>
         </section>
@@ -104,7 +225,8 @@
         <hr>
 
         <section name="videos">
-            <video src="./videos/Conceptos fundamentales del protocolo HTTP y HTTPS.mp4"   alt="PROTOCOLO_HTTP" controls style="width: 40%;"></video>
+            <h2>Conceptos fundamentales del protocolo HTTP y HTTPS</h2>
+            <video src="./videos/Conceptos fundamentales del protocolo HTTP y HTTPS.mp4"   alt="PROTOCOLO_HTTP" controls style="width: 50%;"></video>
             <!-- <embed src="./videos/Conceptos fundamentales del protocolo HTTP y HTTPS.mp4" type="" style="width: 25%; height: 300px;"> -->
         </section>
     
