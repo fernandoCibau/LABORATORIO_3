@@ -1,0 +1,61 @@
+
+
+*{
+    margin: 0;
+}
+
+
+
+.divContenedor{
+    width: 80vw;
+    margin: auto;
+    background-color: darkgray;
+    text-align: center;
+    overflow: auto;
+
+    .divLos5{
+        width: 17rem;
+        height: 10rem;
+        margin: 2%  2% ;
+        border: solid 3px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px;
+        float: left;
+        overflow: auto;
+
+    }
+    .div1{
+        background: linear-gradient( 180deg, #FF0000,rgb(224, 194, 137), #0000FF);
+    }
+
+    .div2{
+        background: radial-gradient( rgb(143, 25, 25), rgb(59, 129, 175), rgb(206, 107, 107), rgb(165, 18, 53));
+    }
+
+    .div3{
+        background: radial-gradient( rgb(143, 25, 25), rgb(59, 129, 175), rgb(206, 107, 107), rgb(165, 18, 53));
+        text-align: center;
+        img{
+            height: 100%;
+            border-radius: 2px;
+        }
+    }
+    
+    .div4{
+        background: linear-gradient( 135deg, #FF0000,rgb(224, 194, 137), #0000FF);
+        padding: 2% 0 0 2%;
+        box-sizing: border-box;
+        font-size: 1.2em;
+        font-family: fantasy;
+        text-align: start;
+        /* box-shadow: 0px 0px 10px 10px wheat;  x, y, desenfoque  , dispersion del radio */
+    }
+
+    .div5{
+        background: linear-gradient( 45deg, #FF0000,rgb(224, 194, 137), #0000FF);
+        font-size: 1.5em;
+        padding-left:0 ;
+        text-align: start;
+    }
+
+}
