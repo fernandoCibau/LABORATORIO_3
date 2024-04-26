@@ -37,6 +37,7 @@
     .div3{
         background: radial-gradient( rgb(143, 25, 25), rgb(59, 129, 175), rgb(206, 107, 107), rgb(165, 18, 53));
         text-align: center;
+        box-sizing: content-box;
         img{
             height: 100%;
             border-radius: 2px;
