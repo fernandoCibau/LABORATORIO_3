@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 
@@ -10,20 +10,22 @@
 .divContenedor{
     width: 80%;
     margin: auto;
-    background-color: darkgray;
+    padding: 1% 0;
+    background-color: darkolivegreen;
     text-align: center;
 
     .divLos5{
-        width: 50%;
-        height: 15vw;
+        width: 45%;
+        height: 17vw;
         margin: 2% auto;
         border: solid 3px;
         border-radius: 15px;
     }
     
     .div1{
-        background-color: gray;
+
         box-shadow: 10px 10px 5px;
+        
     }
 
     .div2{
@@ -58,11 +60,18 @@
 
 }
 
-@media( min-width: 600px) and ( max-width:1080px ){
+@media (min-width: 1080px){
     .div1{
-        background-color: rgb(255, 255, 124);
+        background-color: gray;
     }
 }
+
+@media (min-width:600px) and (max-width: 1080px){
+    .div1{
+        background-color: rgb(255, 255, 124) ;
+    }
+}
+
 @media( max-width: 600px){
     .div1{
         background-color: skyblue;

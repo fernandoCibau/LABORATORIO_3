@@ -2,6 +2,8 @@
 
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -16,7 +18,7 @@
     .divLos5{
         width: 17rem;
         height: 10rem;
-        margin: 2%  2% ;
+        margin: 2%  0.7% ;
         border: solid 3px;
         border-radius: 15px;
         box-shadow: 10px 10px 5px;
