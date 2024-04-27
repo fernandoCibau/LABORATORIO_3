@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 163, 155);
+
+    header{
+        height: 5%;
+        width: 100%;
+    }
+
+    main{
+        height: 82%;
+        width: 95%;
+        margin: auto;
+        overflow: auto;
+        text-align: center;
+
+        .contenedorEncolumnado{
+            width: 90%;
+            /* height: 100vw; */
+            padding: 2%;
+            background-color: wheat;
+            overflow: auto;
+            margin: auto;
+        
+            
+            .divTodos{
+                background-color: darkkhaki;
+                width: 15em;
+                height: auto;
+                padding: 1%;
+                float: left;
+                /* box-sizing: border-box;      */      /* YA ESTA PUESTO ARRIBA PARA TODOS */ 
+                overflow: hidden;
+                margin: 0.3%;
+                text-align: center;
+                
+            }
+        
+            .div1{
+                
+                img{
+                    width: 100%;
+                }
+            }
+        
+
+        }
+    
+    }
+
+    footer{
+        height: 10%;
+        width: 100%;
+    }
+}
+
+
+
+
+
