@@ -1,0 +1,92 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    border: solid 3px;
+    display: flex;
+    flex-direction: column;
+
+    main{
+        background-color: wheat;
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        overflow: auto;
+        border: solid 5px;
+
+        .divRelativoContenedor{       
+
+            .divRelativoTodos{
+                height: 5em;
+                color: white;
+                font-size: 1.5em;
+                position: relative;
+
+            }
+
+            .divRelativoClase1-1{
+                top: 2em;
+                background-color: rgb(0, 0, 0);
+            }
+
+            .divRelativoClase1-2{
+                top: 3em;
+                background-color: rgb(0, 0, 0);
+            }
+        }
+
+        .divFixed{
+            background-color: rgba(255, 0, 0, 0.471);
+            height: 20em;
+            width: 20em;
+            position: fixed;
+            top: 25%;
+            left: 40%;
+        }
+
+        .divRelativoTodos2{
+            background-color: blue;
+            position: relative;
+        }
+
+        .divRelativoClase2-1, .divRelativoClase2-2, .divRelativoClase2-3, .divRelativoClase2-4, .divRelativoClase2-5, .divRelativoClase2-6, .divRelativoClase2-7{
+            background-color: aqua;
+            top: 50em;
+            left: 35%;
+            width: 40%;
+        }
+
+        .divRelativoClase3-1{
+            width: 40%;
+            background-color: yellow;
+            padding: 1%;
+            position: relative;
+            left: 56%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+
+    }
+
+    footer{
+        margin-top: 2em;
+    }
+
+
+}
+
+
+
+
+
