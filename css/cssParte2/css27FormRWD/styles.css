@@ -98,10 +98,12 @@ footer h2{
     .seccionForm form .divContenedorBotones input{
         width: 10em;
         height: 6vw;
+        margin: 5% 0;
+        background-color: aqua;
     }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 512px) and (max-width: 768px) {
     .seccionForm form .divContenedorAtributosForm div{
         width: 16em;
     }
