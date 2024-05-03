@@ -1,0 +1,148 @@
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    color: red;
+    height: 15%;
+    display: flex;
+    align-items: center;    
+}
+
+h1{
+    margin: 0 0 0 2%;
+}
+
+main{
+    background-color: wheat;
+    height: 70%;
+    width: 100%;
+    overflow:auto;
+}
+
+.seccionForm form{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.seccionForm form .divContenedorAtributosForm{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.seccionForm form .divContenedorAtributosForm div{
+    border: solid 1px;
+    width: 24em;;
+    height: 10em;
+    background-color: aqua;
+}
+
+.seccionForm form .divContenedorAtributosForm div label, 
+.seccionForm form .divContenedorAtributosForm div input,
+.seccionForm form .divContenedorAtributosForm div select {
+    position: relative;
+    top: 10%;
+    left: 10%; 
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+.seccionForm form .divContenedorBotones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 0 2% 0;
+}
+
+.seccionForm form .divContenedorBotones input{
+    width: 50em;
+    height: 2.5vw;
+}
+
+footer{
+    height: 15%;
+    background-color: black;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+footer h2{
+    margin:  0 0 0 2%;
+}
+
+
+@media (max-width: 512px) {
+    .seccionForm form .divContenedorAtributosForm div{
+        /* width: 13.2em; */
+        flex-grow: 1;
+    }
+
+    .seccionForm form .divContenedorBotones input{
+        width: 10em;
+        height: 6vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .seccionForm form .divContenedorAtributosForm div{
+        width: 16em;
+    }
+
+    .seccionForm form .divContenedorBotones input{
+        width: 20em;
+        height: 3vw;
+    }
+}
+@media (min-width: 769px)  and (max-width: 1024px) {
+    .seccionForm form .divContenedorAtributosForm div{
+            width: 21.3em;
+    }
+
+    .seccionForm form .divContenedorBotones input{
+        width: 25em;
+        height: 2.5vw;
+    }
+}
+
+@media (min-width: 1025px)  and (max-width: 1440px) {
+    .seccionForm form .divContenedorAtributosForm div{
+            width: 22.5em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

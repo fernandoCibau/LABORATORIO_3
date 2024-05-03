@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS 2 | FORM</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <main>
+        <section name="seccionForm" class="seccionForm">
+
+            <form action="#">
+                <div class="divContenedorAtributosForm">
+                    <div>
+                        <label for="apellito">1.Apellito:</label>
+                        <input type="text" id="apellido"  name="apellido">
+                    </div>
+                    <div>
+                        <label for="nombre">2.Nombre:</label>
+                        <input type="text" id="nombre"  name="apellido">
+                    </div>
+                    <div>
+                        <label for="password">3.Contaseña:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div>
+                        <label for="">4.Campo deshabilitado:</label>
+                        <input type="text" disabled placeholder="Valor Deshabilitado">
+                    </div>
+                    <div>
+                        <label for="fecha">5.Fecha:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div>
+                        <label for="dni">6.Dni:</label>
+                        <input type="number" id="dni" name="dni">
+                    </div>
+                    <div>
+                        <label for="actividadesExtracurriculares">7.Actividades Extracurriculares:</label>
+                        <label for="pintor">pintor</label>
+                        <input type="checkbox" name="actividadesExtracurriculares" value="pintor">
+                        <label for="pintor">tecnico</label>
+                        <input type="checkbox" name="actividadesExtracurriculares" value="tecnico">
+                    </div>
+                    <div>
+                        <label for="sexo">8.Sexo:</label>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="sexo" value="masculino" id="masculino"  >
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" name="sexo" value="masculino" id="femenino">
+                    </div>
+                    <div>
+                        <label for="">9.Vacio:</label>
+                        <!-- <input type="" disabled> -->
+                    </div>
+                    <div>
+                        <label for="estudiosCursados">10.Estudios Cursados:</label>
+                        <select name="estudiosCursados" id="estudiosCursados">
+                            <option value="primarios">Primarios</option>
+                            <option value="secundarios">Secundarios</option>
+                            <option value="terciarios">Terciarios</option>
+                        </select>
+                    </div>
+                    <div>
+                            <label for="areaDeDesempenio">11.Area de desempeño:</label>
+                            <select name="areaDeDesempenio" id="areaDeDesempenio">
+                                <option value="administracion">Administracion</option>
+                                <option value="tecnica">Tecnica</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label for="turnos">12.Turno:</label>
+                        <select name="turnos" id="turnos">
+                            <option value="maniana">Mañana</option>
+                            <option value="tarde">Tarde</option>
+                            <option value="noche">Noche</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="conduce">13.Conduce</label>
+                        <label for="no">Si</label>
+                        <input type="radio" name="conduce" value="si" id="no">
+                        <label for="no">No</label>
+                        <input type="radio" name="conduce" value="no" id="no">
+                    </div>
+                </div>
+                
+                <div class="divContenedorBotones">
+                    <input type="button" name="enviar" value="Enviar" id="">
+                    <input type="button" name="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Pie de formulario</h2>
+    </footer>
+</body>
+</html>
+
