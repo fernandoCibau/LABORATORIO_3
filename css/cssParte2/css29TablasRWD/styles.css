@@ -1,0 +1,222 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+}
+
+h1{
+    background-color: grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 70%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead{
+    height: 5vw;
+    background-color: cadetblue;
+    display: block;
+}
+
+table thead th{
+    width: 11.7em;
+    font-size: large;
+    font-weight: bold;
+}
+
+table thead  #c, #d{
+    width: 14em;
+
+}
+
+table thead #b{
+    width: 15em;
+}
+
+table thead #e, #f{
+    width: 20.7em;
+}
+
+
+
+table tbody{
+    height: 34em;
+    display: block;
+    overflow: auto;
+}
+
+table tbody td{
+    font-size: x-large;
+    font-weight: bold;
+    width: 11.7em;
+    /* padding-left: 2em; */
+}
+
+table tbody #a,  #c{
+    width: 10em;
+    padding-left: 1%;
+}
+
+table tbody #b{
+    width: 15em;
+}
+
+table tbody #e{
+    width: 20.7em;
+}
+
+table tbody tr:nth-child( odd ){
+    background-color:gray;
+}
+table tbody tr:nth-child( even ){
+    background-color:rgba(0, 0, 0, 0.316);
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.316);
+}
+
+
+
+@media (max-width: 375px) {
+
+    table thead tr #c, table tbody tr #c{
+        display: none;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+    table thead{
+        height: 12vw;
+    }
+
+    table tbody{
+        height: 31em;
+    }
+
+
+    table tbody tr td,     table thead tr th{
+        font-size: medium;
+    }
+    table thead tr #f,  table tbody tr #f,    table thead tr #e,  table tbody tr #e{
+        display: none;
+    }
+
+    table thead tr #c, #d{
+        width: 10em;
+    } 
+
+    table thead tr #a, #b{
+        width: 6em;
+    }
+
+    
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    table thead{
+        height: 3em;
+        width: 47.5em;
+    }
+
+    table tbody{
+        height: 30em;
+        width: 50em;
+    }
+
+    h1{
+        font-size: larger;
+    }
+    table thead tr #f, table thead tr #e, table tbody tr #f,table tbody tr #e{
+        display: none;
+    } 
+
+    table thead tr #c, #d{
+        width: 10em;
+    }
+
+    table thead tr #a, #b{
+        width: 2em;
+    } 
+
+    table tbody tr #a, #b{
+        width: 7em;
+    } 
+
+    table tbody tr td ,table thead tr th{
+        font-size: large;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    table thead tr #f,  table tbody tr #f{
+        display:none;
+    }
+
+    table thead tr #a, #b{
+        width: 2em;
+    }
+    table tbody tr #a, #b{
+        width: 7em;
+    }
+
+    table thead tr #c{
+        width: 9em;
+    }
+
+    table thead tr  #d, table tbody tr  #d{
+        width: 10em;
+    }
+
+    table thead tr #b{
+        width: 14em;
+    }
+
+    table thead tr #e{
+        width: 10em;
+    }
+    
+    table tbody tr #b{
+        width: 14em;
+    }
+    
+    table tbody tr td{
+        font-size: large;
+    }
+
+    table tbody {
+        height: 30em;
+    }
+
+}
