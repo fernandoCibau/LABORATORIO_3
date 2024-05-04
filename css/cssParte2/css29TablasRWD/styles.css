@@ -108,8 +108,23 @@ footer{
 
 @media (max-width: 375px) {
 
-    table thead tr #c, table tbody tr #c{
+    h1{
+        font-size: medium;
+    }
+    table thead tr #c, table tbody tr #c, table thead tr #e, table tbody tr #e,
+    table thead tr #f, table tbody tr #f{
         display: none;
+    }
+
+    table thead tr th, table tbody tr td{
+        font-size: small;
+    }
+    table tbody{
+        height: 31.9em;
+    }
+
+    footer{
+        font-size: small;
     }
 }
 
