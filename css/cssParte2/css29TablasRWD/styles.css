@@ -145,6 +145,14 @@ footer{
     table thead tr #f, table thead tr #e, table tbody tr #f,table tbody tr #e{
         display: none;
     } 
+
+
+
+    
+    table tbody tr td, h1, footer{
+        font-size: large;
+    }
+    
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
