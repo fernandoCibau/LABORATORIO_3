@@ -46,28 +46,26 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 h3{
-    position: relative;
-    top: 10%;
     color: white;
+    margin: 0 0 30% 0;
 }
 
 .contenedorMenu ul{
     width: 80%;
     height: 40%;
     background-color: rgba(255, 0, 0, 0.72);
-    position: relative;
-    top: 13%;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contenedor ul li{
-    margin-top: 3%;
-    position: relative;
-    top: 20%;
+    list-style: none;
 }
 
 .contenedorMenu ul li a{
@@ -103,6 +101,18 @@ h3{
     .contenedorTexto{
         background-color: rgb(173, 173, 173);
         width: 60%;
+    
+    }
+}
+
+@media(max-width: 768px){
+    .contenedorMenu{
+        width: 30%;
+    }
+
+    .contenedorTexto{
+        background-color: rgb(173, 173, 173);
+        width: 70%;
     
     }
 }
