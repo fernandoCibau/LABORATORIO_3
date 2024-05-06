@@ -96,6 +96,19 @@ main{
 }
 
 
+@media(max-width: 425px ){
+
+    .contenedorTexto .texto5{
+        margin-top: 50%;
+    }
+
+    .contenedorTexto .img4{
+        position: absolute;
+        left: -45%;
+        bottom: -40%;
+    }
+}
+
 
 
 
