@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.titulo{
+    background-color: grey;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorMenuTexto{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.contenedorMenu{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+
+.contenedorMenu ul{
+    width: 80%;
+    height: 40%;
+    background-color: rgba(255, 0, 0, 0.72);
+    position: relative;
+    top: 13%;
+    list-style: none;
+}
+
+.contenedor ul li{
+    margin-top: 3%;
+    position: relative;
+    top: 20%;
+}
+
+.contenedorMenu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.contenedorTexto{
+    background-color: rgb(173, 173, 173);
+    width: 80%;
+    overflow: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.contenedorPieDePagina{
+    background-color: grey;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width: 500px){
+    .contenedorMenu{
+        width: 40%;
+    }
+
+    .contenedorTexto{
+        background-color: rgb(173, 173, 173);
+        width: 60%;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -44,7 +44,7 @@ thead{
 }
 
 table thead tr  th{
-    width: 1%;
+    width: 4.5%;
 } 
 
 table tbody tr  #a{
@@ -53,7 +53,7 @@ table tbody tr  #a{
 }
 table tbody tr  #b{
     padding: 1%  0;
-    width: 15%;
+    width: 13%;
 }
  table tbody tr  #c{
     padding: 1%  0;
@@ -61,15 +61,15 @@ table tbody tr  #b{
 }
 table tbody tr  #d{
     padding: 1%  0;
-    width: 10%;
+    width: 7%;
 }
  table tbody tr  #e{
     padding: 1%  0;
-    width: 10%;
+    width: 7%;
 }
  table tbody tr  #f{
     padding: 1%  0;
-    width: 8%;
+    width: 7%;
 }
 
 table tbody{

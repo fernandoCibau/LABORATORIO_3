@@ -1,0 +1,79 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.seccionLayout{
+    height: 100%;
+}
+.seccionLayout .contenedorGeneral{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.seccionLayout .contenedorGeneral .contenedorTitulo{
+    height: 12%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccionLayout .contenedorGeneral .contenedorNav{
+    width: 100%;
+    background-color: black;
+}
+.contenedorGeneral .contenedorNav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorGeneral .contenedorNav ul li, a{
+    font-size: x-large;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.contenedorTexto{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+
+.contenedorTexto p{
+    width: 14em;
+    margin: 2% 0.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contenedorPieDePagina{
+    height: 12%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
