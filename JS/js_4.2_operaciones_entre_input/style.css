@@ -1,0 +1,25 @@
+
+main{
+    width: 100%;
+    background-color: wheat;
+    
+
+}
+
+
+main .contenedorGeneral{
+    border: groove 6px black ;
+    width: 40%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main .contenedorGeneral .contenedorInput{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <h1>Titulo De Secuencias</h1>
+        </header>
+
+        <main>
+            <section>
+                <script>
+                    document.write("<h2>Primer Seccion En Body/Main, 'Se agrego desde JS'</h2>");
+                </script>
+                
+                <script>
+                    document.onload( alert("Hola soy el alert que esta dentro del main, Soy el primero en  aparecer   porque esto dendro de un script que contiene el un onLoad en el documento,  a continuacion se va a cargar todo el html "));
+                </script>
+
+                <p> Hola soy un parrafo que esta acontinuacion del  alert de  de carga</p>
+
+            </section>
+        </main>
+
+        <footer>
+            <h2>Titulo De Footer</h2>
+                <script>
+                    document.write( "<p> SOY EL ULTIMO PARRAFO DENTRO DEL FOOTER ESCRITO DESDE  JS, 'AQUI SE TERMINA EL FLUJO'</p>");
+                </script>
+        </footer>
+</body>
+</html>

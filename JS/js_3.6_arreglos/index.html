@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Arreglos</title>
+</head>
+<body>
+    <header>
+        <h1>Arreglos</h1>
+    </header>
+
+    <main>
+        <section>
+            <div id="contenedorDeArreglo" style="font-size:x-large;">
+
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    <script>
+        let listaDeAutos = [ "Renault", "Peugeot" ];
+        let auto;
+
+        auto = prompt("En el programa hay dos Atributos en el array, Carga el tercero por teclado :");
+        listaDeAutos.push(auto)
+        
+        document.getElementById("contenedorDeArreglo").innerHTML = ` 
+            <h2>Lista De Autos</h2>
+            <p>Tipo de arreglo :  ${typeof(listaDeAutos)}</p>
+            <p>Primer elemento cargado desde el programa : ${listaDeAutos[0]}</p>
+            <p>Segundo elemento cargado desde el programa : ${listaDeAutos[1]}</p>
+            <p>Tercer elemento cargado desde teclado : ${listaDeAutos[2]}</p>
+            <p>Cantidad de elementos ${listaDeAutos.length}</p> 
+            `;
+
+
+    </script>
+</body>
+</html>

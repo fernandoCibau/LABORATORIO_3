@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Comando En Evento</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Comando En Evento</h1>
+    </header>
+
+    <main>
+        <section>
+            <div id="contenedorDeBotones">
+                <button id="boton1">Click Aqui Para Un alert</button>
+                <button id="boton2">Click Aqui Para Ejecutar Un Documanto.Write()</button>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        document.getElementById("boton1").addEventListener("click", () =>{ alert("PRESIONASTE EL BOTON ALERT") });
+        document.getElementById("boton2").addEventListener( "click", () =>{
+            // document.getElementById("contenedorDeBotones").innerHTML = `
+            // <p>Al presionar el boton <spam>"DOCUMENTO.WRITE()"</spam>,. Se sobre escribe el contenedor de botones.</p>`;
+            
+            document.write( `<p>Al presionar el boton <spam>"DOCUMENTO.WRITE()"</spam>,. Se sobre escribe el contenedor de botones.</p>`);
+        });
+    </script>
+</body>
+</html>

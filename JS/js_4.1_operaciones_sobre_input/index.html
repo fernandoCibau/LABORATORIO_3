@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Operaciones Sobre Input</title>
+</head>
+<body>
+
+    <header>
+        <h1>Operaciones Sobre Input</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <div>
+                    <h2>Introducir un valor en el cuadro de txto y luego  pulsar el boton para ejecular la funcion correspondiente</h2>
+                </div>
+                <div>
+                    <input type="text" id="text">
+                    <!-- <button id="mostrar">aasda</button> -->
+                    <input type="button" value="Mostrar Valor" id="mostrar">
+                    <input type="button" value="Suma 1" id="sumar1">
+                    <input type="button" value="x ^ 2" id="potencia">
+                    <input type="button" value="Multiplicar * 2" id="multiPor2">
+                    <input type="button" value="2 ^ x" id="binario">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        let cajaDeTexto = document.getElementById("text");
+        cajaDeTexto.value = 0;
+        document.getElementById("mostrar").addEventListener( "click" , () =>{  alert(`Valor Ingresado : ${cajaDeTexto.value}`)});
+        document.getElementById("sumar1").addEventListener( "click", () => cajaDeTexto.value++);
+        document.getElementById("potencia").addEventListener( "click", () => cajaDeTexto.value = parseInt(cajaDeTexto.value)**2 );
+        document.getElementById("multiPor2").addEventListener( "click", () => cajaDeTexto.value = parseInt(cajaDeTexto.value)*2 );
+        document.getElementById("binario").addEventListener( "click", () => cajaDeTexto.value = 2**parseInt(cajaDeTexto.value) );
+    </script>    
+</body>
+
+</html>

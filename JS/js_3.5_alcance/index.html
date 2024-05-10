@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Alcance</title>
+</head>
+<body>
+    <header>
+        <h1>Alcance</h1>
+    </header>
+    
+    <main>
+        <section>
+            <div>
+                <button id="b1">Inicializacion Desde Adentro De Un Procedimiento</button>
+                <button id="b2">Inicializacion Forzada Desde Adentro De Un Procedimiento</button>
+                <button id="b3">Muestra Variable Global</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+
+        // document.addEventListener( "DOMContentLoaded",  () => {
+        //     var texto;
+        //     alert("Se declaro una variable global : " + texto + "Tipo : " + typeof(texto));
+        // });
+
+        window.onload = () => {
+            var texto;
+            alert("Se declaro una variable global : " + texto + "Tipo : " + typeof(texto));
+        }
+
+        document.getElementById("b1").addEventListener( "click", () =>{
+            let texto = prompt("Ingrese una palabra");
+            alert(`Variable local "let" ${texto}` );
+        })
+
+        document.getElementById("b2").addEventListener( "click", () => {
+            alert(texto = prompt("Ingrese una palabra"));
+        })
+
+        document.getElementById("b3").addEventListener( "click", () => {
+            if( typeof(texto) == "undefined") 
+                alert(`Variable global texto : ` + typeof(texto) );
+            else
+                alert(`Variable global texto fue asignado con : ${texto},  y es tipo :` + typeof(texto) );
+                
+        })
+    </script>
+</body>
+</html>
