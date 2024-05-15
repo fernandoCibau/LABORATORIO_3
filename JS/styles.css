@@ -1,0 +1,17 @@
+
+
+body{
+    background-color: wheat;
+}
+
+nav ul .c1 a{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav ul .c2 a{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}

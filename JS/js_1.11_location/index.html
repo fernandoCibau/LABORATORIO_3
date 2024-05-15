@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Location</title>
+</head>
+<body>
+    <header>
+        <h1>Location</h1>
+    </header>
+
+    <main>
+        <section>
+            <input type="button" value="W3schools" id="b1">
+            <input type="button" value="Github" id="b2">
+            <input type="button" value="Oregoom" id="b3">
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("b1").addEventListener("click" , () =>{ location.href = "https://www.w3schools.com/"});
+        document.getElementById("b2").addEventListener("click" , () =>{ location.href = "https://github.com/fernandoCibau"})
+        document.getElementById("b3").addEventListener("click" , () =>{ location.href = "https://oregoom.com/"})
+    </script>
+</body>
+</html>

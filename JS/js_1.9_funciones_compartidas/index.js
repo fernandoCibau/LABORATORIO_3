@@ -78,8 +78,6 @@ function restar( op , num){
     visor.value = total;
 }
 
-
-
 function multiplicar( op , num){
     if( op != "*"){
         visorOp.value = "*";
