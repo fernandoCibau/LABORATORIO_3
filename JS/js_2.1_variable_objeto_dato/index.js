@@ -1,18 +1,21 @@
 
 
-const lista = [] ;
 const bCrear     = document.getElementById("bCrear");
 const bMostar = document.getElementById("bMostrar");
 const bOcultar = document.getElementById("bOcultar");
 
+const lista = [] ;
 let tabla = document.createElement("table");
 
 bCrear.addEventListener("click", () => {
     const nom   = document.getElementById("nombre");
     const ape    = document.getElementById("apellido");
     const fec     = document.getElementById("fecha");
-
     
+    if( nom.value == "" || ape.value =="" || fec.value == ""){
+        return alert("LOS CAMPOS NO PUEDEN ESTAR VACIOS");
+    } 
+
     let thead, tbody, fila, celda;
     
     let persona = { nombre: nom, apellido: ape, fecha: fec };
@@ -44,24 +47,14 @@ bCrear.addEventListener("click", () => {
         
     }
     tabla.appendChild( tbody);
-    document.getElementById("control").appendChild(tabla);
-    
-    
+    control.appendChild(tabla);
+    document.getElementById("longitudTabla").innerHTML = `longitud de tabla : ${lista.length}`;
     
 })
 
 
-
-
-
-
-
-
-
-
 bMostar.addEventListener("click", ()=>{
     control.style.display = "block";
-
 })
 
 bOcultar.addEventListener("click", ()=>{

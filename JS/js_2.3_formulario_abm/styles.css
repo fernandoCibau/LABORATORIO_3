@@ -1,0 +1,27 @@
+
+
+
+html , body{
+    background-color: wheat;
+}
+
+.seccionForm{
+    position: fixed;
+    width: 30em;
+    height: 20em;
+    background-color: rgb(254, 168, 168);
+    top: 30%;
+    left: 35%;
+}
+
+.seccionForm form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.seccionForm form  #blanquear{
+    margin: 5% 0 0 0;
+}
