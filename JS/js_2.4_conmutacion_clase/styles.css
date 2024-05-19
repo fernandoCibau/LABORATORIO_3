@@ -1,0 +1,48 @@
+
+html,body{
+    background-color: wheat;
+}
+
+main section .contenedor{
+    margin: auto;
+    width: 16em;
+    height: 13em;
+    border: groove 4px gold;
+}
+.contenedorBtn{
+    margin: auto;
+    width: 16em;
+}
+
+main section .contenedor1{
+    margin: auto;
+    width: 16em;
+    height: 13em;
+    background-color: blue;
+    color: white;
+    border:  groove 4px rgb(64, 144, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+main section .contenedor2{
+    margin: auto;
+    width: 16em;
+    height: 13em;
+    background-color: black;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: groove 4px red;
+    font-weight: bold;
+}
+
+main section .contenedor3{
+    margin: auto;
+    width: 16em;
+    height: 13em;
+    background-color: red;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: groove 4px black;
+    font-weight: bold;
+}

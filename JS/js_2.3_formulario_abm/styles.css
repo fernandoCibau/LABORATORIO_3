@@ -11,7 +11,7 @@ html , body{
     height: 20em;
     background-color: rgb(254, 168, 168);
     top: 30%;
-    left: 35%;
+    left: 35vw;
 }
 
 .seccionForm form{
@@ -24,4 +24,18 @@ html , body{
 
 .seccionForm form  #blanquear{
     margin: 5% 0 0 0;
+}
+
+@media  (min-width: 769px) and (max-width: 1024px) {
+    .seccionForm{
+        left: 28%;
+    }
+}
+
+@media (max-width: 768px) {
+    .seccionForm{
+        left: 25%;
+        width: 50%;
+        height: 20em;
+    }
 }
