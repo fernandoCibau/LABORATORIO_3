@@ -1,0 +1,37 @@
+
+
+{
+    
+    "jugadores": [
+        {"nombre":"juan","fecNac":"2024-05-01","posicion":"arquero","numCamiseta":"1"}
+        ,{"nombre":"pedro","fecNac":"2024-05-08","posicion":"defensor","numCamiseta":"2"},
+        {"nombre":"jorge","fecNac":"2024-05-16","posicion":"defensor","numCamiseta":"6"},
+        {"nombre":"bimbo","fecNac":"2024-07-10","posicion":"delantero","numCamiseta":"9"},      
+        {"nombre":"walter","fecNac":"2018-02-27","posicion":"delantero","numCamiseta":"11"}, 
+        {"nombre":"fernando","fecNac":"2018-02-10","posicion":"medio","numCamiseta":"8"},
+        {"nombre": "roberto", "fecNac": "20/03/2020", "posicion": "medio", "numCamiseta": 5},
+        {"nombre":"juan","fecNac":"2024-05-01","posicion":"arquero","numCamiseta":"1"}
+        ,{"nombre":"pedro","fecNac":"2024-05-08","posicion":"defensor","numCamiseta":"2"},
+        {"nombre":"jorge","fecNac":"2024-05-16","posicion":"defensor","numCamiseta":"6"},
+        {"nombre":"bimbo","fecNac":"2024-07-10","posicion":"delantero","numCamiseta":"9"},      
+        {"nombre":"walter","fecNac":"2018-02-27","posicion":"delantero","numCamiseta":"11"}, 
+        {"nombre":"fernando","fecNac":"2018-02-10","posicion":"medio","numCamiseta":"8"},
+        {"nombre": "roberto", "fecNac": "20/03/2020", "posicion": "medio", "numCamiseta": 5},
+        {"nombre":"juan","fecNac":"2024-05-01","posicion":"arquero","numCamiseta":"1"}
+        ,{"nombre":"pedro","fecNac":"2024-05-08","posicion":"defensor","numCamiseta":"2"},
+        {"nombre":"jorge","fecNac":"2024-05-16","posicion":"defensor","numCamiseta":"6"},
+        {"nombre":"bimbo","fecNac":"2024-07-10","posicion":"delantero","numCamiseta":"9"},      
+        {"nombre":"walter","fecNac":"2018-02-27","posicion":"delantero","numCamiseta":"11"}, 
+        {"nombre":"fernando","fecNac":"2018-02-10","posicion":"medio","numCamiseta":"8"},
+        {"nombre": "roberto", "fecNac": "20/03/2020", "posicion": "medio", "numCamiseta": 5},
+        {"nombre":"juan","fecNac":"2024-05-01","posicion":"arquero","numCamiseta":"1"}
+        ,{"nombre":"pedro","fecNac":"2024-05-08","posicion":"defensor","numCamiseta":"2"},
+        {"nombre":"jorge","fecNac":"2024-05-16","posicion":"defensor","numCamiseta":"6"},
+        {"nombre":"bimbo","fecNac":"2024-07-10","posicion":"delantero","numCamiseta":"9"},      
+        {"nombre":"walter","fecNac":"2018-02-27","posicion":"delantero","numCamiseta":"11"}, 
+        {"nombre":"fernando","fecNac":"2018-02-10","posicion":"medio","numCamiseta":"8"},
+        {"nombre": "roberto", "fecNac": "20/03/2020", "posicion": "medio", "numCamiseta": 5}  
+    ]
+}
+
+

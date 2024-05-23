@@ -1,0 +1,85 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    height: 70%;
+    width: 90%;
+    background-color: wheat;
+    margin: auto;
+    
+}
+
+main section{
+    height: 100%;
+    width: 100%;
+}
+
+main section form{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+main section form .contenedores{
+    width: 50%;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+main section form .contenedores input, select{
+    width: 50%;
+    height: 3em;
+}
+
+
+
+footer{
+    background-color: brown;
+    height: 15%;
+}
+
+@media (min-width: 426px) and ( max-width:769px){
+    main section form .contenedores{
+        height: 8em;
+    }
+}
+
+@media (max-width: 426px){
+    main section form .contenedores{
+        width: 100%;
+        height: 5em;
+    }
+    main section form .contenedores input, select{
+        height: 2em;
+    }
+}
+
+
+
+
+
+
+
+

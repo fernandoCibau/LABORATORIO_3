@@ -1,0 +1,149 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    background-color: black;
+}
+
+h1{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .contInputHd{
+    width: 30%;
+
+}
+
+header .contInputHd input{
+    width: 10em;
+    position: relative;
+    top: 50%;
+    background-color: red;
+    font-weight: bold;
+    border:  groove gray 2px;
+}
+
+
+main{
+    width: 100%;
+    height: 70%;
+}
+
+main section{
+    height: 100%;
+}
+
+main section table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow: hidden;
+    border: groove white 4px;
+}
+
+table tbody tr:nth-child( odd ){
+    background-color:red;
+}
+
+table tbody tr:nth-child( even ){
+    background-color:rgba(0, 0, 0, 0.316);
+}
+
+main section table thead{
+    height: 10%;
+}
+
+main section table tbody{
+    display: block;
+    height: 100%;
+    width: 100vw;
+    overflow: auto;
+}
+
+main section table thead tr{
+    height: 2.7em;
+    background-color: rgba(0, 0, 0, 0.315);
+    font-size: medium;
+}
+main section table thead th {
+    /* border: solid; */
+    width: 25vw;   
+    height: 100%;
+    font-weight: bold;    
+}
+
+main section table tbody tr{
+    height: 1em;
+    border: solid;
+}
+
+main section table tbody td{
+    /* border: solid; */
+    width: 25vw;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+footer{
+    height: 15%;
+    width: 100%;
+    color: red;
+    background-color: black;
+}
+
+
+@media (max-width: 536px){
+    header{
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        height: 70%;
+        margin: auto;
+    }
+
+    header .contInputHd{
+        width: 100%;
+        height: 30%;
+        margin: auto;
+    }
+
+    header .contInputHd input{
+    position: relative;
+    top: 0;
+    left: 20%;
+    }
+
+} 
+
+@media (max-width: 376px){
+    header .contInputHd input{
+    position: relative;
+    top: 0;
+    left: 15%;
+    }
+}

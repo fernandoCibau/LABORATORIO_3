@@ -1,0 +1,10 @@
+
+
+{
+    "posiciones" :  [
+            { "arquero" : [  1 ,  12 ]  },
+            { "defensor" : [  3 , 6, 2, 4 ]},
+            { "medio" : [10, 5, 8 ] },
+            { "delantero" : [7, 9, 11 ]}
+        ]
+}
