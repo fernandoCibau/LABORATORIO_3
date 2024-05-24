@@ -1,0 +1,204 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    font-size: larger;
+    background-color: black;
+    color: red;
+    border-bottom: groove 1px grey;
+}
+
+h1{
+    width: 30%;
+    height:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+    /* border: groove 1px grey; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    border: groove 1px grey;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+
+header nav ul li .contendorUl{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    height: 30%;
+    width: 100%;
+    overflow: auto;
+    display: none;
+}
+
+header nav ul li .contendorUl .contDirecciones{
+    display: block;
+    height: 50%;
+}
+
+header nav ul li .contendorUl .contDirecciones li{
+    width: 100%;
+    height: 30%;
+}
+
+header nav ul li .contendorUl .contDirecciones li a{
+    font-size: larger;
+}
+
+
+header ul li:hover  .contendorUl {
+    display: block;
+}
+
+
+main{
+    height: 70%;
+    width: 100%;
+    background-color: firebrick;
+    margin: auto;
+
+}
+
+
+footer{
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    color: red;
+    font-size: larger;
+}
+
+footer h2{
+    margin: 0 0 0 3%;
+}
+
+footer ul{
+    margin: 1% 0 0 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+        h1{
+        font-size: x-large;
+    }
+
+    footer{
+        font-size: small;
+    
+    }
+}
+
+@media (min-width:425px) and (max-width: 768px){
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: larger;
+        width: 100%;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    header nav li a , header nav ul li .contendorUl .contDirecciones li a{
+        width: 100%;   
+        font-size: medium;
+        text-align: center;
+    }
+
+
+    footer{
+        font-size: small;
+    }
+}
+
+@media (max-width: 425px){
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: larger;
+        width: 100%;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    header nav li a , header nav ul li .contendorUl .contDirecciones li a{
+        width: 100%;   
+        font-size: medium;
+        text-align: center;
+    }
+
+    footer{
+        font-size: small;
+    
+    }
+
+    footer ul{
+        margin-left: 5%;
+    }
+}
