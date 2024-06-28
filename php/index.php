@@ -16,9 +16,14 @@
                                 <li><a href="./03_php_basico_require">03_php_basico_require</a></li>
                                 <li><a href="./04_php_basico_variables_del_servidor">04_php_basico_variables_del_servidor</a></li>
                                 <li><a href="./05_php_basico_variables_objetos">05_php_basico_variables_objetos</a></li>
-                                <li><a href="./vacio">vacio</a></li>
-                                <li><a href="./vacio">vacio</a></li>
-                                <li><a href="./vacio">vacio</a></li>
+                                <li><a href="./06_php_formulario/">06_php_formulario</a></li>
+                                <li><a href="./07_php2_form_to_encrypt/">07_php2_form_to_encrypt</a></li>
+                                <li><a href="./08_php2_ajax/">08_php2_ajax</a></li>
+                                <li><a href="./09_php2_form_to_json">09_php2_form_to_json</a></li>
+                                <li><a href="./10_php2_listado_ordenar_Y_filtrar">10_php2_listado_ordenar_Y_filtrar</a></li>
+                                <li><a href="./11_php2_abm">11_php2_abm</a></li>
+                                <li><a href="./">VACIO</a></li>
+
             </ul>
         </nav>
     </header>

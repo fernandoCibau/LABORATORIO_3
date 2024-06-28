@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+header h1{
+    color: red;
+}
+main{
+    background-color: wheat;
+    width: 100%;
+    height: 90%;
+    font-size: x-large;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.pObj{
+    background-color: black;
+    color: red;
+    width: 15em;
+    height: 1.5em;
+    margin: 1em;
+    text-align: center;
+}
+
+p{
+    margin: 1em;
+}
+.pp{
+    margin: 3em;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1em;
+}
+.th{
+    border:  solid 2px;
+    padding: 0.5em;
+}
