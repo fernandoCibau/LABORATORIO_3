@@ -1,0 +1,65 @@
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 8
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 8
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Warning:  include(cargarJpeg.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'cargarJpeg.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:12:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 8
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 8
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Warning:  include(cargarJpeg.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'cargarJpeg.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:15:52 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:15:56 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:15:56 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 02:16:46 America/Argentina/Buenos_Aires]  ERROR, CERRAR SESION.PHP LINEA 65 : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE usuario = NULL' at line 4
+[04-Jul-2024 02:16:58 America/Argentina/Buenos_Aires]  ERROR, CERRAR SESION.PHP LINEA 65 : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE usuario = NULL' at line 4
+[04-Jul-2024 02:18:22 America/Argentina/Buenos_Aires]  ERROR, CERRAR SESION.PHP LINEA 65 : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE usuario = NULL' at line 4
+[04-Jul-2024 02:18:29 America/Argentina/Buenos_Aires]  ERROR, CERRAR SESION.PHP LINEA 65 : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE usuario = NULL' at line 4
+[04-Jul-2024 02:19:38 America/Argentina/Buenos_Aires]  ERROR, CERRAR SESION.PHP LINEA 65 : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE usuario = NULL' at line 4
+[04-Jul-2024 02:24:42 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 31
+[05-Jul-2024 02:21:59 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 14
+[05-Jul-2024 02:21:59 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 14
+[05-Jul-2024 02:21:59 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 15
+[05-Jul-2024 02:21:59 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 15
+[05-Jul-2024 02:28:53 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 9
+[05-Jul-2024 02:28:53 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 9
+[05-Jul-2024 02:28:53 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 10
+[05-Jul-2024 02:28:53 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 10
+[05-Jul-2024 17:00:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:49 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:49 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:49 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:49 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:49 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:51 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:51 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:51 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:51 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:51 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:58 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:06:13 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:06:13 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:06:13 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:06:13 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10

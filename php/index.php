@@ -21,7 +21,7 @@
                                 <li><a href="./08_php2_ajax/">08_php2_ajax</a></li>
                                 <li><a href="./09_php2_form_to_json">09_php2_form_to_json</a></li>
                                 <li><a href="./10_php2_listado_ordenar_Y_filtrar">10_php2_listado_ordenar_Y_filtrar</a></li>
-                                <li><a href="./11_php2_abm">11_php2_abm</a></li>
+                                <li><a href="./11_php2_abm/moduloSPA">11_php2_abm</a></li>
                                 <li><a href="./">VACIO</a></li>
 
             </ul>

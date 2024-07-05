@@ -89,42 +89,25 @@ main{
 
 }
 
-.respuesta{
+/* .respuesta{
     font-size: larger;
     word-break: break-all;
     overflow: auto;
-}
+} */
 
-.btnRespuesta{
-    margin-top: 1em;
-    margin: auto;
-}
 
-.btnRespuesta button{
-    margin: 10em 0 0 1em;
+
+.contenedorRespuesta button{
+    margin: 10em auto 0 auto;
     width: 10em;
     height: 2em;
     background-color: black;
     color: wheat;
 }
 
-.btnRespuesta button:hover{
+.contenedorRespuesta button:hover{
     border: groove 4px wheat;
     transition-duration: 0.5s;
-}
-
-.btnRegistrarse{
-    margin-top: 10px;
-    padding: 1em;
-    border-radius: 5px;
-    background-color: black;
-    color: red;
-    font-weight: bold;
-}
-.btnRegistrarse:hover{
-    border: groove 2px wheat;
-    transition-duration: 0.5s;
-    color: wheat;
 }
 
 .modalOn{
@@ -154,47 +137,6 @@ main{
     transition: 2s;
 }
 
-/* //-------------------------------------------------------------
-//                      FORMULARIO MODAL
-//------------------------------------------------------------- */
-main section form{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main section form .contenedores{
-    width: 50%;
-    height: 6em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-
-main section form .contenedores input {
-    width: 80%;
-    height: 2em;
-}
-
-/* //-------------------------------------------------------------
-//                FORMULARIO INICIO
-//------------------------------------------------------------- */
-.seccionForm{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    border: solid 1px;
-}
-.contenedorForm{
-    margin: 10% auto ;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    color: wheat;
-    background-color: rgba(0, 0, 0, 0.464);
-
-}
 
 
 /* //-------------------------------------------------------------

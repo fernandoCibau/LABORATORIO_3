@@ -1,0 +1,194 @@
+[04-Jul-2024 14:13:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 14:13:08 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 14:13:12 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 14:13:12 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 25
+[04-Jul-2024 16:46:55 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\altaUsuario.php:36
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\altaUsuario.php(36): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\altaUsuario.php on line 36
+[04-Jul-2024 19:33:03 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:03 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:03 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:05 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:08 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:08 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:33:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:33:08 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:36:25 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:36:25 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:36:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:36:25 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:37:10 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:37:10 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:37:10 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:37:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:37:21 America/Argentina/Buenos_Aires] PHP Warning:  include(conexionPDO.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:37:21 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening 'conexionPDO.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 6
+[04-Jul-2024 19:37:21 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:37:21 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 13
+[04-Jul-2024 19:39:45 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $resultado in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 21
+[04-Jul-2024 19:40:57 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:36
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(36): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 36
+[04-Jul-2024 19:45:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:38
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(38): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 38
+[04-Jul-2024 19:50:24 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:38
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(38): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 38
+[04-Jul-2024 19:52:21 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:38
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(38): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 38
+[04-Jul-2024 19:52:30 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:38
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(38): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 38
+[04-Jul-2024 20:15:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, stdClass given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:53
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(53): error_log(Object(stdClass))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 53
+[04-Jul-2024 20:44:45 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:25
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(25): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 25
+[04-Jul-2024 21:01:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:26
+Stack trace:
+#0 C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php(26): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 26
+[05-Jul-2024 01:10:23 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $ok in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 52
+[05-Jul-2024 02:20:30 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 14
+[05-Jul-2024 02:20:30 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 14
+[05-Jul-2024 02:20:30 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 15
+[05-Jul-2024 02:20:30 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\guardarSesion.php on line 15
+[05-Jul-2024 02:48:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: PDOStatement::bindParam(): Argument #2 ($var) cannot be passed by reference in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 44
+[05-Jul-2024 02:49:05 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: PDOStatement::bindParam(): Argument #2 ($var) cannot be passed by reference in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 44
+[05-Jul-2024 02:52:38 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: PDOStatement::bindParam(): Argument #2 ($var) cannot be passed by reference in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\formularioRegistroUsuario\altaUsuario.php on line 44
+[05-Jul-2024 17:02:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:02:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:02:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:02:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:02:25 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:02:44 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:02:44 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:02:44 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:02:44 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:02:44 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:03:37 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:03:37 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:03:37 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:03:37 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:03:37 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:24 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:24 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:24 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:24 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:24 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 9
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "usuario" in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 10
+[05-Jul-2024 17:05:25 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php:27
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\laboratorio3\php\11_php2_abm\cerrarSesion.php on line 27
+[05-Jul-2024 17:13:36 America/Argentina/Buenos_Aires]  ERROR, ALTAREGISTRO.PHP LINEA 43 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'G00003' for key 'PRIMARY'
+[05-Jul-2024 17:13:47 America/Argentina/Buenos_Aires]  ERROR, ALTAREGISTRO.PHP LINEA 43 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'G00003' for key 'PRIMARY'
+[05-Jul-2024 17:14:54 America/Argentina/Buenos_Aires]  ERROR, ALTAREGISTRO.PHP LINEA 43 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'G00003' for key 'PRIMARY'
+[05-Jul-2024 17:17:54 America/Argentina/Buenos_Aires]  ERROR, ALTAREGISTRO.PHP LINEA 43 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'G00004' for key 'PRIMARY'
+[05-Jul-2024 17:18:12 America/Argentina/Buenos_Aires]  ERROR, ELIMINAR.PHP LINEA 33 : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[05-Jul-2024 17:18:27 America/Argentina/Buenos_Aires]  ERROR, ELIMINAR.PHP LINEA 33 : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[05-Jul-2024 17:19:00 America/Argentina/Buenos_Aires]  ERROR, ELIMINAR.PHP LINEA 33 : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[05-Jul-2024 17:20:42 America/Argentina/Buenos_Aires]  ERROR, ELIMINAR.PHP LINEA 33 : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[05-Jul-2024 17:20:56 America/Argentina/Buenos_Aires]  ERROR, ELIMINAR.PHP LINEA 33 : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[05-Jul-2024 17:24:58 America/Argentina/Buenos_Aires]  ERROR, ALTAREGISTRO.PHP LINEA 43 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'G00001' for key 'PRIMARY'
